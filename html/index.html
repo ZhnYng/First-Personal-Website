@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Web portfolio
+        CA2
+        
+        <My Portfolio>
+        Author: Lim Zhen Yang
+        Date: 6/8/2022
+
+        Filename: index.html
+    -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="wireframe"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Singapore Polytechnic, Introduction, Achievements">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/progressBar.js"></script>
+    <script defer src="../js/search.js"></script>
+    <script defer src="../js/countdown.js"></script>
+    <script defer src="../js/hidden.js"></script>
+    <script defer src="../js//scrollToTop.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header id="introduction">
+        <!-- Navigation -->
+        <!-- A grey horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-2 fs-4">
+            <div class="container-fluid">
+                <!-- Links -->
+                <a class="nav-link active me-3 fw-bold" href="./index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./careers.html">Careers</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./feedback.html">Feedback</a>
+                        </li>
+                        <li class="nav-item mx-3 d-xl-none">
+                            <a class="nav-link fw-bold" href="#contact">Contacts</a>
+                        </li>
+                        <li class="nav-item mx-3 d-none d-xl-block">
+                            <a class="nav-link fw-bold" href="#sidebar-contact">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main section -->
+    <div class="row col-12 m-0">
+        <!-- Sidebar -->
+        <div class="d-none d-xl-flex col-2 border border-3 border-primary
+        flex-column position-sticky h-100 p-0" id="sidebar">
+            <div class="mx-2 border-bottom border-3 border-primary p-3" id="search-button">
+                <input type="text" class="form-control border border-2" id="search" placeholder="Search...">
+            </div>
+            <div class="d-flex flex-column p-2" id="sidebar-menu">
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./index.html#introduction" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item1">> Introduction</a>
+                    <ol class="ps-5">
+                        <li>Name</li>
+                        <li>School</li>
+                        <li>Course</li>
+                        <li>More about course</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./index.html#about-myself" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item2">> About Myself</a>
+                    <ol class="ps-5">
+                        <li>Values</li>
+                        <li>Personality</li>
+                        <li>Interest</li>
+                        <li>Awards</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./experience.html#experience" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item3">> My Experience</a>
+                    <ol class="ps-5">
+                        <li>Academic</li>
+                        <li>Social</li>
+                        <li>CCAs</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./experience.html#other-courses" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item4">> Other courses</a>
+                    <ol class="ps-5">
+                        <li>DCITP</li>
+                        <li>DISM</li>
+                        <li>DIT</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./careers.html#career-interests" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item5">> Career Interests</a>
+                    <ol class="ps-5">
+                        <li>Data Analytics</li>
+                        <li>Web Development</li>
+                        <li>Application Engineering</li>
+                    </ol>
+                </div>
+            </div>
+            <footer class="bg-dark text-center text-white pt-4 col-12 d-xl-block" id="sidebar-contact">
+                <h1>Contacts</h1>
+                <ul class="p-0">
+                    <li class="list-unstyled">
+                        <a class="text-decoration-none border-bottom border-1 border-primary" 
+                        href="mailto:ZZYY.22@ichat.sp.edu.sg">ZZYY.22@ichat.sp.edu.sg</a>
+                    </li>
+                    <li class="list-unstyled">
+                        <a class="text-decoration-none border-bottom border-1 border-primary" 
+                        href="tel:92385735">92385735</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-between px-3 text-muted">
+                    <address class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle me-1" viewBox="0 0 16 16">
+                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                        </svg >
+                        Lim Zhen Yang 
+                    </address> 
+                    <time datetime="2022-05-12" title="May 5th, 2022">7/8/22</time>
+                </div>
+            </footer>
+        </div>
+        <div class="col-xl-10 col-12 container-fluid m-0 p-0 pb-5">
+            <div class="progress rounded-0 position-sticky fixed-top" id="progress">
+                <div class="progress-bar position-sticky" id="progress-bar" style="width: 0%;"></div>
+            </div>
+            <!-- Hero section -->
+            <div class="text-center" id="index-hero">
+                <section class="d-flex justify-content-center 
+                flex-column text-white">
+                    <h2 class="h1 card-title display-3 fw-bold text-nowrap">Lim Zhen Yang,</h2>
+                    <h2 class="h1 card-text">A Student from the<br/>
+                        School of Computing,<br/> 
+                        Singapore Polytechnic</h2>
+                    <p class="card-text fw-bold">I am in the Diploma of <br/>
+                        Applied Artificial Intelligence<br/>
+                        and Analytics (DAAA)</p>
+                    <button class="btn btn-primary btn-lg align-self-center fw-bold" onclick="window.location.href=
+                    'https://www.sp.edu.sg/soc/courses/full-time-diplomas/data-analytics-and-artificial-intelligence-(ai)'">
+                        My Course
+                    </button>
+                </section>
+            </div>
+            <div class="container-fluid d-flex flex-column">
+                <main class="col-12 my-3 me-5" id="main-about">
+                    <h1 class="text-primary text-decoration-underline fw-bold" 
+                    id="about-myself">About Myself</h1>
+                    <div class="d-flex flex-column flex-lg-row align-items-center">
+                        <div>
+                            <h2 class="ms-3">Values</h2>
+                            <p class="ms-lg-5 fs-5 mx-5">
+                                <b>Honesty, Humility, and Perseverance</b> are my 3 core values.
+                                Honesty is important as it makes one trustworthy and reliable.
+                            </p>
+                            <p class="ms-lg-5 fs-5 mx-5">
+                                Humility is defined as the quality of having a modest or low view of one's importance.
+                                To be humble entails the ability to empathise with others, to be conscious of one's 
+                                surrounding and someone else's feelings.
+                            </p>
+                            <p class="ms-lg-5 fs-5 mx-5">
+                                Persevering through <b>adversity and arduous times</b>, not succumbing to 
+                                difficulty is an important value everyone should have. We should embrace difficulty, 
+                                approach it with a growth mindset.
+                            </p>
+                        </div>
+                        <img src="../img/hard-work.png" alt="" class="col-12 col-lg-4 col-md-6 text-center"> <!-- "https://www.flaticon.com/free-icons/hard-work" -->
+                    </div>
+                    <hr class="my-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center">
+                        <div>
+                            <h2 class="ms-3">Personality</h2>
+                            <p class="ms-5 fs-5">
+                                I am <b>tenacious, industrious, and goal-oriented</b>. Tenacity, the quality or fact of being very determined,
+                                determines how one reacts to challenges. Personally, I enjoy solving challenges as 
+                                overcoming them gives me a great sense of accomplishment and I get to learn something new.
+                            </p>
+                            <p class="ms-5 fs-5">
+                                I try to complete tasks to the best of my ability, as quickly as I can which prepares me for 
+                                unforseen circumstances. It has also helped me, rarely finding myself behind time on assignments.
+                                I am goal-oriented, always trying to complete tasks as efficiently and accurately as possible.
+                            </p>
+                            <p class="ms-5 fs-5">
+                                This allows me to be focused on the tasks at hand, not being distracted by other things.
+                                I aim to not only complete my goals, but to excel in them. As the <b>old adage</b> says,
+                                "Shoot for the moon. Even if you miss, you'll land among the stars." Even if I don't reach my goals,
+                                I would still be among the best.
+                            </p>
+                        </div>
+                        <img src="../img/goal.png" alt="" class="col-12 col-lg-4 col-md-6 text-center"><!-- "https://www.flaticon.com/free-icons/goal" -->
+                    </div>
+                    <hr class="my-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center">
+                        <div>
+                            <h2 class="ms-3">Interest</h2>
+                            <p class="ms-5 fs-5">
+                                I am interested to learn about new technologies, whether it is hardware such as phones or software such as new 
+                                programming languages, or programming projects, with a recent one called <b>PyScript</b>, which allows one to 
+                                run python code directly in html. 
+                            </p>
+                            <p class="ms-5 fs-5">
+                                I also have interest in machine learning, how it works, and its seemingly limitless ability to learn.
+                                Its ability to enchance human life, making the world a safer place with models capable of identifying fake news,
+                                to creating art with word descriptions as input from the user. 
+                            </p>
+                        </div>
+                        <img src="../img/like.png" alt="" class="col-12 col-lg-4 col-md-6 text-center"><!-- "https://www.flaticon.com/free-icons/interest" -->
+                    </div>
+                </main>
+                <hr class="my-4">
+                <!-- Award table -->
+                <table class="table text-center table-bordered border-dark table-primary table-responsive">
+                    <caption class="caption-top text-primary fw-bold fs-2 text-center">
+                        Awards
+                        <br>
+                        <cite class="fs-6 text-black">
+                            (Government of Singapore, 2022, <a target="_blank" href="https://www.moe.gov.sg/financial-matters/awards-scholarships/edusave-awards">
+                                <b>Edusave awards and scholarships</b></a>[online], 
+                            Accessed on: 21/5/2022.)
+                        </cite>
+                    </caption>
+                    <tr>
+                        <th>Award</th>
+                        <th>Year</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Edusave Scholarship</td>
+                        <td>2019 - 2021</td>
+                        <td>Students who are within the top 10% of their school’s level and 
+                            course in terms of academic performance, and have demonstrated good conduct.</td>
+                    </tr>
+                    <tr>
+                        <td>Edusave Character Award</td>
+                        <td>2018</td>
+                        <td>Up to 2% of students in each school who have demonstrated exemplary character and
+                            outstanding personal qualities through their behaviour and actions.</td>
+                    </tr>
+                    <tr>
+                        <td>Edusave Merit Bursary</td>
+                        <td>2018</td>
+                        <td>Students who are within the top 25% of their school’s level and course in terms
+                            of academic performance and have demonstrated good conduct.</td>
+                    </tr>
+                    <tr>
+                        <td>Edusave Certificate of Academic Achievement</td>
+                        <td>2018</td>
+                        <td>For achieving good academic performance and demonstrating good conduct</td>
+                    </tr>
+                </table>
+            </div>
+            <form class="mx-5">
+                <label for="hidden" class="form-label h5">
+                    Guess the password:
+                    <input type="password" class="form-control" name="hidden" id="hidden">
+                </label>
+                <div id="message" class="p text-danger">(hint: password)</div>
+            </form>
+        </div>
+    </div>
+    <!-- Contacts -->
+    <footer class="bg-dark text-center text-white pt-4 col-12 d-xl-none" id="contact">
+        <h1>Contacts</h1>
+        <ul class="p-0">
+            <li class="list-unstyled">
+                <a class="text-decoration-none border-bottom border-1 border-primary" 
+                href="mailto:ZZYY.22@ichat.sp.edu.sg">ZZYY.22@ichat.sp.edu.sg</a>
+            </li>
+            <li class="list-unstyled">
+                <a class="text-decoration-none border-bottom border-1 border-primary" 
+                href="tel:92385735">92385735</a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between px-3 text-muted">
+            <address class="d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle me-1" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                </svg >
+                Lim Zhen Yang 
+            </address> 
+            <time datetime="2022-05-12" title="May 5th, 2022">7/8/22</time>
+        </div>
+    </footer>
+    <div class="text-center mt-5 pt-5" id="internship">
+        <div class="display-1" id="eye-emoji">&#128064;</div>
+        <span class="display-1">What's this?</span> 	
+        <div class="my-5 py-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="gold" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+            </svg>
+        </div>
+        <div class="container-fluid d-flex justify-content-center align-items-center flex-column" 
+        id="graduation-timer">
+            <h1 class="display-1">Internship! &#127881;</h1>
+            <div class="row text-center col-12 col-lg-8">
+                <div class="col-12 col-lg-3" id="days">
+                    <div class="display-1 fw-bold" id="num-days"></div>
+                    <h1>days</h1>
+                </div>
+                <div class="col-4 col-lg-3" id="hours">
+                    <div class="display-1 fw-bold" id="num-hours"></div>
+                    <h1>hours</h1>
+                </div>
+                <div class="col-4 col-lg-3" id="mins">      
+                    <div class="display-1 fw-bold" id="num-mins"></div>
+                    <h1>mins</h1>
+                </div>
+                <div class="col-4 col-lg-3" id="secs">
+                    <div class="display-1 fw-bold" id="num-secs"></div>
+                    <h1>secs</h1>
+                </div>
+            </div>
+            <button class="btn btn-light mt-5" id="to-top" onclick="scrollToTop()">
+                To top
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

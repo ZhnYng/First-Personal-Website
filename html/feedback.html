@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Web portfolio
+        CA2
+        
+        <My Portfolio>
+        Author: Lim Zhen Yang
+        Date: 6/8/2022
+
+        Filename: feedback.html
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Feedback, Singapore Polytechnic, Applied AI and Analytics, Portfolio, Data Scientist, Web developer"/>
+    <title>Feedback</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/progressBar.js"></script>
+    <script defer src="../js/search.js"></script>
+    <script src="../js/wordCount.js"></script>
+</head>
+<!-- NEED HELP WITH BOOTSTRAP ICON -->
+<body>
+    <header>
+        <!-- Navigation -->
+        <!-- A grey horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-2 fs-4">
+            <div class="container-fluid">
+                <!-- Links -->
+                <a class="nav-link me-3 fw-bold" href="./index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="./experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="./careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold active" href="./feedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item mx-3 d-xl-none">
+                        <a class="nav-link fw-bold" href="#contact">Contacts</a>
+                    </li>
+                    <li class="nav-item mx-3 d-none d-xl-block">
+                        <a class="nav-link fw-bold" href="#sidebar-contact">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="row col-12 m-0">
+        <!-- Sidebar -->
+        <div class="d-none d-xl-flex col-2 border border-3 border-primary
+        flex-column position-sticky h-100 p-0" id="sidebar">
+            <div class="mx-2 border-bottom border-3 border-primary p-3" id="search-button">
+                <input type="text" class="form-control border border-2" id="search" placeholder="Search...">
+            </div>
+            <div class="d-flex flex-column p-2" id="sidebar-menu">
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./index.html#introduction" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item1">> Introduction</a>
+                    <ol class="ps-5">
+                        <li>Name</li>
+                        <li>School</li>
+                        <li>Course</li>
+                        <li>More about course</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./index.html#about-myself" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item2">> About Myself</a>
+                    <ol class="ps-5">
+                        <li>Values</li>
+                        <li>Personality</li>
+                        <li>Interest</li>
+                        <li>Awards</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./experience.html#experience" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item3">> My Experience</a>
+                    <ol class="ps-5">
+                        <li>Academic</li>
+                        <li>Social</li>
+                        <li>CCAs</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./experience.html#other-courses" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item4">> Other courses</a>
+                    <ol class="ps-5">
+                        <li>DCITP</li>
+                        <li>DISM</li>
+                        <li>DIT</li>
+                    </ol>
+                </div>
+                <div class="d-flex flex-column ps-3 mb-3">
+                    <a href="./careers.html#career-interests" 
+                    class="text-secondary h5 text-decoration-none" id="menu-item5">> Career Interests</a>
+                    <ol class="ps-5">
+                        <li>Data Analytics</li>
+                        <li>Web Development</li>
+                        <li>Application Engineering</li>
+                    </ol>
+                </div>
+            </div>
+            <footer class="bg-dark text-center text-white pt-4 col-12 d-xl-block" id="sidebar-contact">
+                <h1>Contacts</h1>
+                <ul class="p-0">
+                    <li class="list-unstyled">
+                        <a class="text-decoration-none border-bottom border-1 border-primary" 
+                        href="mailto:ZZYY.22@ichat.sp.edu.sg">ZZYY.22@ichat.sp.edu.sg</a>
+                    </li>
+                    <li class="list-unstyled">
+                        <a class="text-decoration-none border-bottom border-1 border-primary" 
+                        href="tel:92385735">92385735</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-between px-3 text-muted">
+                    <address class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle me-1" viewBox="0 0 16 16">
+                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                        </svg >
+                        Lim Zhen Yang 
+                    </address> 
+                    <time datetime="2022-05-12" title="May 5th, 2022">7/8/22</time>
+                </div>
+            </footer>
+        </div>
+        <div class="col-xl-10 col-12 container-fluid m-0 p-0 pb-5">
+            <div class="progress rounded-0 position-sticky fixed-top" id="progress">
+                <div class="progress-bar position-sticky" id="progress-bar" style="width: 0%;"></div>
+            </div>
+            <!-- Hero section -->
+            <div class="text-center" id="hero-main">
+                <section class="d-flex justify-content-center 
+                flex-column text-white">
+                    <h2 class="h1 card-title display-3 fw-bold text-nowrap">Lim Zhen Yang</h2>
+                </section>
+            </div>
+            <!-- Feedback form -->
+            <div class="container-fluid">
+                <div class="my-4">
+                    <div class="d-flex justify-content-center">
+                        <section class="col-9 fs-5 my-4 text-center">
+                            <h2 class="h1 text-primary fw-bold text-decoration-underline">
+                                Viewer Feedback
+                            </h2>
+                            <p>
+                                Thank you for taking our customer survey. Your feedback will allow me to 
+                                make improvements to my website for the next viewer to have a better experience. 
+                                All feedback are welcome and important for the development of my website. 
+                            </p>
+                                Surveys are private and confidential, there will be no sharing of any information 
+                                with third parties, ever.
+                            <p>
+                                You may be contacted for further information regarding your feedback in order to 
+                                accurately make improvements.
+                            </p>
+                            <p>
+                                All fields are required.
+                            </p>
+                        </section>
+                    </div>
+                    <hr class="my-3"/>
+                    <section class="col-12 d-flex flex-column align-items-center my-5 py-4">
+                        <h2 class="h1 text-primary fw-bold text-decoration-underline">
+                            Feedback
+                        </h2>
+                        <form action="./submitted.html" class="d-flex was-validated
+                        flex-column flex-xl-row justify-content-around w-75 p-5
+                        rounded-3 border border-3 border-secondary" id="form">
+                            <fieldset class="my-3 flex-column d-flex mx-4">
+                                <label class="form-label my-3">
+                                    How would you rate the layout of the website <br/> 
+                                    <input type="range" id="experience" name="experience" min="1" max="10"
+                                    class="form-range">
+                                </label>
+                                <p>The amount of information shared was<br/>____________</p>
+                                <label for="just-right">
+                                    <input type="radio" id="just-right" class="form-check-input" 
+                                    name="amt-right" value="just-right" required>
+                                    just right
+                                </label>
+                                <label for="too-much">
+                                    <input type="radio" id="too-much" name="amt-right" 
+                                    class="form-check-input" value="too-much">
+                                    too much
+                                </label>
+                                <label class="too-little">
+                                    <input type="radio" id="too-little" name="amt-right" 
+                                    value="too-little" class="form-check-input">
+                                    too little
+                                </label>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                                <label class="my-3">
+                                    <input type="checkbox" name="will-visit" id="visit">
+                                    I would visit this site again
+                                </label>
+                                <label class="my-3">
+                                    The SOC course that is most interesting:
+                                    <br>
+                                    <select name="course" id="course" required>
+                                        <option value="">--Course--</option>
+                                        <option value="DCITP">DCITP</option>
+                                        <option value="DISM">DISM</option>
+                                        <option value="DIT">DIT</option>
+                                    </select>
+                                </label>
+                                <label class="my-3">
+                                    The page that is most informative:
+                                    <br>
+                                    <select name="page" id="page" required>
+                                        <option value="">--Page--</option>
+                                        <option value="Home">Home</option>
+                                        <option value="Experience">Experience</option>
+                                        <option value="Career">Career</option>
+                                    </select>
+                                </label>
+                            </fieldset>
+                            <fieldset class="my-3 d-flex flex-column mx-4">
+                                <label class="d-flex flex-column my-3">
+                                    What can be improved about this website?
+                                    <textarea name="comments" id="comments" 
+                                    wrap="soft" cols="30" rows="10" 
+                                    placeholder="Comments"></textarea>
+                                </label>
+                                <p class="align-self-end" id="word-count"></p>
+                                <label class="my-3">
+                                    Email(For us to get back to you):
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </label>
+                                <button class="my-3 btn-primary btn-lg" id="form-submit">Submit</button>
+                            </fieldset>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contacts -->
+    <footer class="bg-dark text-center text-white pt-4 col-12 d-xl-none" id="contact">
+        <h1>Contacts</h1>
+        <ul class="p-0">
+            <li class="list-unstyled">
+                <a class="text-decoration-none border-bottom border-1 border-primary" href="mailto:ZZYY.22@ichat.sp.edu.sg">ZZYY.22@ichat.sp.edu.sg</a>
+            </li>
+            <li class="list-unstyled">
+                <a class="text-decoration-none border-bottom border-1 border-primary" href="tel:92385735">92385735</a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between px-3 text-muted">
+            <address class="d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle me-1" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                </svg >
+                Lim Zhen Yang 
+            </address> 
+            <time datetime="2022-05-12" title="May 5th, 2022">7/8/22</time>
+        </div>
+    </footer>
+</body>
+</html>

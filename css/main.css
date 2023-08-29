@@ -1,0 +1,77 @@
+div#index-hero{
+    background-image: url('../img/andrea-de-santis-zwd435-ewb4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 7em;
+}
+
+img#img-experience{
+    width: 300px;
+}
+
+div#hero-main{
+    background-image: url('../img/andrea-de-santis-zwd435-ewb4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8em;
+}
+
+div#search-button{
+    height: 70px;
+}
+
+#menu-item1:hover, #menu-item2:hover, #menu-item3:hover, #menu-item4:hover, #menu-item5:hover{
+    color: #4285F4 !important;
+}
+
+div#sidebar{
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    height: 100vh !important;
+}
+
+textarea#comments{
+    resize: none;
+}
+
+form#form{
+    box-shadow: 5px 10px;
+    border: 8px double gray !important;
+}
+
+table#table-careers{
+    border-collapse: separate;
+    border-spacing: 45px 35px;
+}
+
+div#graduation-timer{
+    height: 100vh;
+}
+
+div#eye-emoji{
+    transform: rotate(-15deg);
+}
+
+div#internship{
+    background-image: linear-gradient(white, gold);
+}
+
+button#to-top{
+    color: gold;
+}
+
+div#progress-bar{
+    width: 0%;
+}
+
+input[type=range]#experience-submitted::-webkit-slider-thumb {
+    background: green;
+}
+input[type=range]#experience-submitted::-moz-range-thumb {
+    background: green;
+}
+input[type=range]#experience-submitted::-ms-thumb {
+    background: green;
+}

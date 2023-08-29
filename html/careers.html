@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Web portfolio
+        CA2
+        
+        <My Portfolio>
+        Author: Lim Zhen Yang
+        Date: 6/8/2022
+
+        Filename: careers.html
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Careers, Singapore Polytechnic, Applied AI and Analytics, Portfolio, Data Scientist, Web developer"/>
+    <title>Careers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/progressBar.js"></script>
+    <script defer src="../js/search.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Navigation -->
+        <!-- A grey horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-2 fs-4">
+            <div class="container-fluid">
+                <!-- Links -->
+                <a class="nav-link me-3 fw-bold" href="./index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold active" href="./careers.html">Careers</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./feedback.html">Feedback</a>
+                        </li>
+                        <li class="nav-item mx-3 d-xl-none">
+                            <a class="nav-link fw-bold" href="#contact">Contacts</a>
+                        </li>
+                        <li class="nav-item mx-3 d-none d-xl-block">
+                            <a class="nav-link fw-bold" href="#sidebar-contact">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row col-12 m-0">
+            <!-- Sidebar -->
+            <div class="d-none d-xl-flex col-2 border border-3 border-primary
+            flex-column position-sticky h-100 p-0" id="sidebar">
+                <div class="mx-2 border-bottom border-3 border-primary p-3" id="search-button">
+                    <input type="text" class="form-control border border-2" id="search" placeholder="Search...">
+                </div>
+                <div class="d-flex flex-column p-2" id="sidebar-menu">
+                    <div class="d-flex flex-column ps-3 mb-3">
+                        <a href="./index.html#introduction" 
+                        class="text-secondary h5 text-decoration-none" id="menu-item1">> Introduction</a>
+                        <ol class="ps-5">
+                            <li>Name</li>
+                            <li>School</li>
+                            <li>Course</li>
+                            <li>More about course</li>
+                        </ol>
+                    </div>
+                    <div class="d-flex flex-column ps-3 mb-3">
+                        <a href="./index.html#about-myself" 
+                        class="text-secondary h5 text-decoration-none" id="menu-item2">> About Myself</a>
+                        <ol class="ps-5">
+                            <li>Values</li>
+                            <li>Personality</li>
+                            <li>Interest</li>
+                            <li>Awards</li>
+                        </ol>
+                    </div>
+                    <div class="d-flex flex-column ps-3 mb-3">
+                        <a href="./experience.html#experience" 
+                        class="text-secondary h5 text-decoration-none" id="menu-item3">> My Experience</a>
+                        <ol class="ps-5">
+                            <li>Academic</li>
+                            <li>Social</li>
+                            <li>CCAs</li>
+                        </ol>
+                    </div>
+                    <div class="d-flex flex-column ps-3 mb-3">
+                        <a href="./experience.html#other-courses" 
+                        class="text-secondary h5 text-decoration-none" id="menu-item4">> Other courses</a>
+                        <ol class="ps-5">
+                            <li>DCITP</li>
+                            <li>DISM</li>
+                            <li>DIT</li>
+                        </ol>
+                    </div>
+                    <div class="d-flex flex-column ps-3 mb-3">
+                        <a href="./careers.html#career-interests" 
+                        class="text-secondary h5 text-decoration-none" id="menu-item5">> Career Interests</a>
+                        <ol class="ps-5">
+                            <li>Data Analytics</li>
+                            <li>Web Development</li>
+                            <li>Application Engineering</li>
+                        </ol>
+                    </div>
+                </div>
+                <footer class="bg-dark text-center text-white pt-4 col-12 d-xl-block" id="sidebar-contact">
+                    <h1>Contacts</h1>
+                    <ul class="p-0">
+                        <li class="list-unstyled">
+                            <a class="text-decoration-none border-bottom border-1 border-primary" 
+                            href="mailto:ZZYY.22@ichat.sp.edu.sg">ZZYY.22@ichat.sp.edu.sg</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a class="text-decoration-none border-bottom border-1 border-primary" 
+                            href="tel:92385735">92385735</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-between px-3 text-muted">
+                        <address class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle me-1" viewBox="0 0 16 16">
+                                <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                            </svg >
+                            Lim Zhen Yang 
+                        </address> 
+                        <time datetime="2022-05-12" title="May 5th, 2022">7/8/22</time>
+                    </div>
+                </footer>
+            </div>
+            <div class="col-xl-10 col-12 container-fluid m-0 p-0">
+                <!-- Progress bar -->
+                <div class="progress rounded-0 position-sticky fixed-top" id="progress">
+                    <div class="progress-bar position-sticky" id="progress-bar"></div>
+                </div>
+                <!-- Hero section -->
+                <div class="text-center" id="hero-main">
+                    <section class="d-flex justify-content-center 
+                    flex-column text-white">
+                        <h2 class="card-title display-3 fw-bold text-nowrap h1">Lim Zhen Yang</h2>
+                    </section>
+                </div>
+                <!-- Career interest -->
+                <div class="row mb-5 m-0">
+                    <div class="d-flex flex-column flex-lg-row align-items-center p-lg-3">
+                        <section class="col-lg-8 col-12">
+                            <h2 class="h1 text-primary fw-bold text-decoration-underline mt-4 mx-3">
+                                Career Interests
+                            </h2>
+                            <p class="mx-5 text-black">
+                                From 16 Personalities, I found that I have a ENTJ-T personality. 
+                                I love a good challenge, big or small, and I firmly believe that 
+                                given enough time and resources, I can achieve any goal. This 
+                                quality makes me a brilliant entrepreneur, and my ability to think strategically 
+                                and hold a long-term focus while executing each step of my plans with 
+                                determination and precision makes me a powerful business leader.
+                                I would describe executive positions and entrepreneurialism to be ideal lines of 
+                                work – any position high enough that I can clearly see the horizon.
+                            </p>
+                            <p class="mx-5 text-black">
+                                I pursue my goals with singular vision, and have strict 
+                                standards for myself and others that are designed above all else to be effective.
+                                I enjoy programming as solving problems in general give me a sense of achievement.
+                                Web development is fulfilling as I can see my webpage immediately change when 
+                                I make changes to the files. I also find manipulating datasets, such as excel 
+                                and CSV files using Pandas fun. Then from these datasets, plot graphs and find 
+                                patterns.
+                            </p>
+                        </section>
+                        <img src="../img/nordwood-themes-kRNZiGKtz48-unsplash.jpg" alt="Computer" id="img-career"
+                        class="col-lg-4 col-12 col-md-7 img-fluid"> <!--NordWood Themes, 2017, Accessible at: https://unsplash.com/photos/kRNZiGKtz48 [online], Accessed on: 22/5/2022-->
+                    </div>
+                </div>
+                <!-- Career choices  -->
+                <div class="row col-12 m-0">
+                    <div class="p-0">
+                        <div class="container-fluid px-0">
+                            <h2 class="text-primary fw-bold text-center pt-5
+                            display-2 text-decoration-underline" id="#career-interests">
+                                Careers
+                            </h2>
+                            <div class="row col-12 mt-5 mt-lg-0 text-primary">
+                                <div class="col-12 col-lg-6 text-center d-flex flex-column justify-content-evenly">
+                                    <h1 class="display-2">Data Analytics</h1>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="rgb(13, 110, 253)" class="bi bi-graph-up" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-flex flex-column px-5 align-items-center">
+                                    <div class="mt-5">
+                                        <h2 class="fw-bold">What</h2>
+                                        <p class="fs-5 text-black">
+                                            Analytics is the systematic computational analysis of data or statistics. 
+                                            It is used for the discovery, interpretation, and communication of meaningful patterns in data. 
+                                            It also entails applying data patterns toward effective decision-making.
+                                        </p>
+                                    </div>
+                                    <div class="my-5">
+                                        <h2 class="fw-bold">Why</h2>
+                                        <p class="fs-5 text-black">
+                                            Data analytics is a fast-paced, challenging career centered on problem-solving and thinking 
+                                            outside of the box. As a data analyst, I'll work with a number of different teams who require 
+                                            my skills and knowledge to provide them with insights into how they can improve their processes. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid px-0">
+                            <div class="row col-12 pt-5 pt-lg-0">
+                                <div class="col-12 col-lg-6 text-center d-flex flex-column justify-content-evenly">
+                                    <h1 class="display-2 text-primary mx-5 mx-5">Web Development</h1>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="rgb(13, 110, 253)" class="bi bi-window-stack" viewBox="0 0 16 16">
+                                            <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+                                            <path d="M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10ZM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1Zm1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3Zm12-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2h12Z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-flex flex-column px-1 align-items-center text-primary">
+                                    <div class="mt-5 mx-5">
+                                        <h2 class="fw-bold">What</h2>
+                                        <p class="fs-5 text-black">
+                                            Web development is the work involved in developing a website for the Internet or an intranet. 
+                                            Web development can range from developing a simple single static page of plain text to complex 
+                                            web applications, electronic businesses, and social network services.
+                                        </p>
+                                    </div>
+                                    <div class="my-5 mx-5">
+                                        <h2 class="fw-bold">Why</h2>
+                                        <p class="fs-5 text-black">
+                                            Web development is challenging, which requires creative problem solving. It gives me 
+                                            the opportunity to create, and there are many things to learn from web development 
+                                            such as new frameworks or libraries. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid px-0">
+                            <div class="row col-12 h-100 pt-5 pt-lg-0 text-primary">
+                                <div class="col-12 col-lg-6 text-center d-flex flex-column justify-content-evenly">
+                                    <h1 class="display-2">Application Engineer</h1>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="rgb(13, 110, 253)" class="bi bi-file-earmark-code" viewBox="0 0 16 16">
+                                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                                            <path d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-flex flex-column px-1 align-items-center">
+                                    <div class="mt-5 mx-5">
+                                        <h2 class="fw-bold">What</h2>
+                                        <p class="fs-5 text-black">
+                                            An Application Engineer designs and improves software. They perform needed evaluations 
+                                            with clients to understand the unique goals of each project and then implement after careful assessment. 
+                                            This sometimes means they are tasked with the development of custom software.
+                                        </p>
+                                    </div>
+                                    <div class="my-5 mx-5">
+                                        <h2 class="fw-bold">Why</h2>
+                                        <p class="fs-5 text-black">
+                                            Careers in Application Engineering offer me a high-level of job satisfaction. 
+                                            This is in part because companies hiring for Application Engineer are often highly-sought-after companies 
+                                            like software producers and computer design firms who need me to service their external clients.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Contacts -->
+    <footer class="bg-dark text-center text-white pt-4 col-12 d-xl-none" id="contact">
+        <h1>Contacts</h1>
+        <ul class="p-0">
+            <li class="list-unstyled">
+                <a class="text-decoration-none border-bottom border-1 border-primary" 
+                href="mailto:ZZYY.22@ichat.sp.edu.sg">ZZYY.22@ichat.sp.edu.sg</a>
+            </li>
+            <li class="list-unstyled">
+                <a class="text-decoration-none border-bottom border-1 border-primary" 
+                href="tel:92385735">92385735</a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between px-3 text-muted">
+            <address class="d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle me-1" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                </svg >
+                Lim Zhen Yang 
+            </address> 
+            <time datetime="2022-05-12" title="May 5th, 2022">7/8/22</time>
+        </div>
+    </footer>
+</body>
+</html>
